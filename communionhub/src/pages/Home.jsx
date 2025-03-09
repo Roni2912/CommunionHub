@@ -126,27 +126,32 @@ const Home = () => {
           </motion.div>
 
           <motion.div 
-            variants={containerVariants}
-            className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16"
+              variants={containerVariants}
+              className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-16"
           >
-            {features.map((feature, index) => (
-              <motion.div
-                key={index}
-                variants={itemVariants}
-                whileHover={{ y: -10, scale: 1.02 }}
-                className="bg-white/10 backdrop-blur-lg rounded-2xl p-8 text-center
-                         border border-white/20 hover:border-white/40 transition-all duration-300"
-              >
-                {feature.icon}
-                <h3 className="text-xl font-semibold text-white mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-white/80">
-                  {feature.description}
-                </p>
-              </motion.div>
-            ))}
+              {features.map((feature, index) => (
+                <motion.div
+                  key={index}
+                  variants={itemVariants}
+                  whileHover={{ y: -10, scale: 1.03 }}
+                  className="bg-white/10 backdrop-blur-lg rounded-2xl p-6 text-center 
+                            border border-white/20 hover:border-white/40 transition-all duration-300"
+                >
+                  <div className="flex flex-col items-center ">
+                    <div className="text-4xl text-white">
+                      {feature.icon}
+                    </div>
+                    <h3 className="text-lg font-semibold text-white mb-1">
+                      {feature.title}
+                    </h3>
+                  </div>
+                  <p className="text-white/80 text-sm">
+                    {feature.description}
+                  </p>
+                </motion.div>
+              ))}
           </motion.div>
+
 
           <motion.div
             variants={containerVariants}
