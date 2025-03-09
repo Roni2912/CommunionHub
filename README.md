@@ -23,7 +23,7 @@ Demo Link :
 ## 🛠️ Installation
 
 1. Clone the repository:
- git clone https://github.com/yourusername/communion-hub.git
+ git clone https://github.com/Roni2912/communion-hub.git
 
 2. Install dependencies:
    cd communion-hub
