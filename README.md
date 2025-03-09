@@ -23,13 +23,16 @@ Demo Link :
 ## 🛠️ Installation
 
 1. Clone the repository:
- git clone https://github.com/Roni2912/communion-hub.git
+    ```bash
+    git clone https://github.com/Roni2912/communion-hub.git
 
 2. Install dependencies:
+   ```bash
    cd communion-hub
    npm install
    
-4. Start the development server:
+3. Start the development server:
+     ```bash
      npm run dev
    
 
@@ -39,5 +42,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-👥 Contact
-Your Name - Ronish Dudhat
