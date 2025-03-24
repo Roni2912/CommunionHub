@@ -23,17 +23,19 @@ Demo Link : https://communion-hub.vercel.app/
 ## 🛠️ Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/Roni2912/communion-hub.git
-
+    ```
+    git clone https://github.com/Roni2912/CommunionHub
+    cd communion-hub
+    ```
 2. Install dependencies:
-   ```bash
-   cd communion-hub
+   ```
    npm install
+   ```
    
 3. Start the development server:
-     ```bash
+     ```
      npm run dev
+     ```
    
 
 🤝 Contributing
