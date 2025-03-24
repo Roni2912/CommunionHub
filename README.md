@@ -25,7 +25,7 @@ Demo Link : https://communion-hub.vercel.app/
 1. Clone the repository:
     ```
     git clone https://github.com/Roni2912/CommunionHub
-    cd communion-hub
+    cd CommunionHub/communionhub 
     ```
 2. Install dependencies:
    ```
